@@ -1,9 +1,11 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="portfolio.css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 <div class="container">
 
@@ -29,13 +31,14 @@
   </nav>  <!-- CLOSES navbar -->
 
 
+
   </div>
 
   <!-- Above this line is navbar. It is good. -->
   <!-- Below this line is the about me card. -->
 
   <div class="bg-dark card" id="about">
-      <div class="row">
+      <div class="row text-center">
 
         <div class="col">
           <div class="card-body">
@@ -47,7 +50,7 @@
 
         <div class="col">
            <div class="card-body">
-        <img class="img-fluid col-md-10 rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ernest_Hemingway_1923_passport_photo.jpg" alt="Hemingway">
+        <img class="img-fluid col-md-10 rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ernest_Hemingway_1923_passport_photo.jpg" alt="Hemingway" id="profile-pic">
           </div> <!-- closes card-body for about me image -->
         </div> <!-- closes col -->
 
@@ -179,17 +182,24 @@
 
         <div class="col">
           <div class="card-body">
-            <h6 class="text-secondary text-center">ABOUT THIS PAGE </h6>
-            <p class="text-center text-secondary">Coded by <a href="https://github.com/mattzuzolo" target="_blank">Matt Zuzolo</a> </p>
+            <h6 class="text-secondary text-center" id="around-the-web">ABOUT THIS PAGE </h6>
+            <p class="text-center text-secondary" id="coded-by">Coded by <a href="https://github.com/mattzuzolo" target="_blank">Matt Zuzolo</a> </p>
           </div> <!-- closes card-body for about me text paragraph -->
         </div> <!-- closes col -->
 
         <div class="col">
            <div class="card-body">
-              <h6 class="text-secondary text-center">AROUND THE WEB</h6>
-                   <a class="btn btn-social-icon btn-github" >
+              <h6 class="text-secondary text-center" id="around-the-web">AROUND THE WEB</h6>
+                   <div class="text-center" id="social-icons">
+                      <a href="https://github.com/mattzuzolo"> <i class="fa fa-github" aria-hidden="true"></i> </a>
+                      <a href="https://twitter.com/freeCodeCamp"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                    </div>
+
+
+
+<!--              <a class="btn btn-social-icon btn-github" >
                        <span class="fa fa-github fa-3x"></span>
-                       </a>
+                       </a> -->
 
 
 
@@ -212,5 +222,7 @@
 
     </div> <!-- CLOSES card body -->
   </div>  <!-- CLOSES CONTACT Card -->
+
+<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
 
 </div> <!-- CLOSES div container -->
