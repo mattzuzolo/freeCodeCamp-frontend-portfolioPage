@@ -1,0 +1,19 @@
+body {
+     margin-top: 50px;
+  }
+
+.card-body {
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+
+#form-card {
+      margin-top: -50px;
+      margin-bottom: 0px;
+}
+
+#about-form-card {
+      margin-top: -25px;
+      margin-bottom: 0px;
+}
